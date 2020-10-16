@@ -2,7 +2,7 @@
 Team 7:   
 Belinda = Box plots  
 Celine = Project manager, code editor   
-QinQin = Animated bar plot  
+Qinqin = Animated bar plot  
 Valerie = Table plot  
 
 #### Project 2 Requirements Met:  
