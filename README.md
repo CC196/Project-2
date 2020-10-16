@@ -1,5 +1,5 @@
 # Project-2
-Team 7:   
+##### Team 7:   
 Belinda = Box plots  
 Celine = Project manager, code editor   
 Qinqin = Animated bar plot  
