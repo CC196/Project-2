@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/hoh3yvr.css">
     <link href="https://fonts.googleapis.com/css?family=Overpass:100,300,800" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+    <link rel="stylesheet" type="text/css" href="style_features.css">
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -72,57 +71,57 @@
       </nav>
 
 
-    <div class="container">
-      <div class="row intro-copy align-bottom">
-        <div class="small-12 medium-12 large-offset-7 columns load">
-          <h1><span>Quarantine </span><span>Music Analysis</span></h1>
-          <p>How to survive quarantine? Going loony in lockdown? Explore ultimate quarantine playlist world wide.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 jumbotron text-center">
+            <h1>TEST FOR PROJECT 2</h1>
+            <p>Drop down table for TOP 50 by Country</p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class = "col-6" data-aos="zoom-in">
-          <img class="backImage" src="images/img1.jpg" alt ="backgroud image" style ="width: 500px; height: 600px;">
-        </div>
-        <div class = "col-6"  data-aos="zoom-in">
-        <h2>Team 7</h2>
-        <ul>
-          <li>Celine Cai</li>
-          <li>Belinda Mapesa</li>
-          <li>Qinqin Zha</li>
-          <li>Val Popovich</li>
-        </ul>
-      </div>
-      </div>
-       
-      </div>
-<!-- <div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/AoAm4om0wTs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
-</div>    -->
-        <div id="footer" class="hidden-section hidden">
-          
-            <div class="row align-center">
-              <div class="small-12 medium-6 large-3 columns">
-                <p>@UCI Data Analytics Bootcamp Project 2</p>
-              </div>
-                        
+        <div class="row">
+          <div class="col-md-12">
+            <div class="well">
+              <h5>Choose a Country:</h5>
+              <select id="selDataset" onchange="optionChanged(this.value)"></select>
             </div>
-        
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <table id="summary-table" class="table table-striped table-inverse">
+                <thead>
+                  <tr>
+                    <th>Rank</th>
+                    <th>Title</th>
+                    <th>Artist</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
         </div>
-
-  </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="bubble"></div>
+          </div>
+        </div>
+      </div>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     
 <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<!-- <script type="text/javascript" src="features.js" -->
+<!-- <script type="text/javascript" src="features2.js"></script> -->
+<script src="val.js"></script>
     
 </body>
-
 
 </html>
 
