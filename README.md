@@ -1,7 +1,7 @@
 # Project-2
 ### Team 7:   
 Belinda = Box plots  
-Celine = Project manager, code editor   
+Celine = ETL, API  
 Qinqin = Animated bar plot  
 Valerie = Table plot  
 
@@ -15,4 +15,10 @@ Final visualization includes at least three views.
 
 #### Additional Items: 
 Includes a drop down menu with link to data sets.  
-Includes a drop down menu with information about team members.  
+Includes information about team members.
+
+#### Instructions for TAs:  
+Run the app.py first.   
+Then run the index.html in live server.    
+Reload or refresh the home page to visualize the animation.    
+Click on various menu options to visualize the data and data source links.    
